@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>document.documentElement.classList.add('js');</script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cloaked — Fight against surveillance, spam, &amp; identity theft</title>
+<meta name="description" content="Cloaked replaces your personal data with secure aliases so scammers, spammers, and data brokers never see the real you." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="#" class="logo">cloaked</a>
+
+    <nav class="nav" id="main-nav">
+      <a href="#how-it-works">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#spotlight">Press</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+
+    <div class="site-header__actions">
+      <a href="#get-started" class="btn btn--primary btn--sm">Generate phone number</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__dark">
+      <div class="container hero__media-wrap reveal">
+        <div class="photo-placeholder hero__media" role="img" aria-label="A couple laughing together while looking at a phone on the couch">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3.5 19c0-3 2.5-5.2 5.5-5.2s5.5 2.2 5.5 5.2M14.8 14.3c2.3.2 4.2 2.1 4.2 4.7"/></svg>
+          <span>Ảnh: cặp đôi cười đùa cùng nhau</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container hero__content">
+      <h1 class="reveal">Fight against surveillance, spam, &amp; identity theft.</h1>
+      <p class="hero__subtext reveal">Cloaked replaces your personal data with secure aliases for your phone, email, and payments — so scammers, spammers, and data brokers never see the real you.</p>
+
+      <form class="capture-form reveal" id="get-started">
+        <label class="sr-only" for="hero-email">Email address</label>
+        <input type="email" id="hero-email" placeholder="Enter your email" required />
+        <button type="submit" class="btn btn--primary">Get Cloaked</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- RISK / DATA PARADOXES -->
+  <section class="risk">
+    <div class="container">
+      <p class="risk__lede reveal">Data paradoxes put you and your family at risk.</p>
+
+      <div class="risk__grid">
+        <div class="risk-card reveal">
+          <span class="risk-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 9l-6 6M9 9l6 6"/><circle cx="12" cy="12" r="9"/></svg>
+          </span>
+          <h3>Scammers &amp; Fraudsters</h3>
+          <p>Your phone number and email are sold and traded, fueling endless spam calls, texts, and phishing attempts.</p>
+        </div>
+
+        <div class="risk-card reveal">
+          <span class="risk-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z"/></svg>
+          </span>
+          <h3>Identity Thieves</h3>
+          <p>Leaked personal data lets criminals open accounts, file fraudulent claims, and steal your identity.</p>
+        </div>
+
+        <div class="risk-card reveal">
+          <span class="risk-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>
+          </span>
+          <h3>Data Agents &amp; Brokers</h3>
+          <p>Data brokers profit from tracking, packaging, and reselling your information — without your consent.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM STATEMENT -->
+  <section class="problem">
+    <div class="container problem__inner">
+      <h2 class="reveal">The problem is real, widespread, and personal.</h2>
+      <p class="reveal">Every year, billions of personal records are exposed, bought, and sold — putting you and the people you love at risk.</p>
+    </div>
+  </section>
+
+  <!-- TAKE BACK CONTROL -->
+  <section class="control" id="how-it-works">
+    <div class="container">
+      <h2 class="control__heading reveal">Cloaked lets you take back control.</h2>
+      <p class="control__subtext reveal">Generate secure aliases for your phone, email, and payment info — so your real identity always stays hidden.</p>
+
+      <div class="control__media-wrap reveal">
+        <div class="photo-placeholder photo-placeholder--dark control__media" role="img" aria-label="A person relaxing at home while checking their phone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="7" y="2" width="10" height="18" rx="2"/><path d="M11 17h2"/></svg>
+          <span>Ảnh: người dùng đang kiểm tra điện thoại</span>
+        </div>
+
+        <div class="floating-card floating-card--1">
+          <span class="floating-card__dot"></span>
+          Spam call blocked
+        </div>
+        <div class="floating-card floating-card--2">
+          <span class="floating-card__dot"></span>
+          Email masked
+        </div>
+        <div class="floating-card floating-card--3">
+          <span class="floating-card__dot"></span>
+          Identity protected
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="reveal">How does Cloaked protect my data?</h2>
+
+      <div class="features__grid">
+        <div class="feature-card reveal">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 18h4"/></svg>
+          </span>
+          <h3>Masked Contacts</h3>
+          <p>Create unlimited phone numbers and emails that forward straight to you.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          </span>
+          <h3>Identity Monitoring</h3>
+          <p>Get alerted the moment your data appears somewhere it shouldn't.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M6 6v13a2 2 0 002 2h8a2 2 0 002-2V6M9 6V4a2 2 0 012-2h2a2 2 0 012 2v2"/></svg>
+          </span>
+          <h3>Data Removal</h3>
+          <p>We contact brokers on your behalf to remove your personal information.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 018 0v3"/></svg>
+          </span>
+          <h3>Encrypted Vault</h3>
+          <p>Store passwords and sensitive info behind military-grade encryption.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPOTLIGHT -->
+  <section class="spotlight" id="spotlight">
+    <div class="container">
+      <h2 class="reveal">Cloaked in the spotlight</h2>
+
+      <div class="spotlight__grid">
+        <button class="video-card reveal" type="button" aria-label="Play video">
+          <span class="video-card__play" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </span>
+        </button>
+
+        <div class="press-card reveal">
+          <span class="press-logo">Forbes</span>
+          <span class="press-logo">TechCrunch</span>
+          <span class="press-logo">WIRED</span>
+          <span class="press-logo">The Verge</span>
+          <span class="press-logo">Fast Company</span>
+          <span class="press-logo">CNBC</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container">
+      <h2 class="reveal">Join hundreds of thousands of Americans fighting back</h2>
+      <a href="#get-started" class="btn btn--primary reveal">Get Cloaked Free</a>
+
+      <div class="stats__grid">
+        <div class="stat-card reveal">
+          <span class="stat-card__number">60+ million</span>
+          <span class="stat-card__label">spam calls &amp; texts blocked</span>
+        </div>
+        <div class="stat-card reveal">
+          <span class="stat-card__number">13+ million</span>
+          <span class="stat-card__label">identities protected</span>
+        </div>
+        <div class="stat-card reveal">
+          <span class="stat-card__number">22+ billion</span>
+          <span class="stat-card__label">data points secured</span>
+        </div>
+      </div>
+
+      <p class="stats__disclaimer">Based on aggregated, anonymized product usage data collected across all Cloaked accounts.</p>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="testimonial">
+    <div class="container">
+      <blockquote class="testimonial__card reveal">
+        <p>&ldquo;Cloaked gave my family real peace of mind. I finally feel in control of my own information.&rdquo;</p>
+        <footer>
+          <span class="testimonial__avatar" aria-hidden="true"></span>
+          <span>The Alvarez Family, Austin, TX</span>
+        </footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="container final-cta__grid">
+      <div class="final-cta__content reveal">
+        <h2>Your info shouldn't be currency for scammers.</h2>
+        <p>Take the first step toward real privacy — for you and the people you love.</p>
+        <a href="#get-started" class="btn btn--primary">Start protecting your family</a>
+      </div>
+
+      <div class="final-cta__media-wrap reveal">
+        <div class="photo-placeholder photo-placeholder--dark final-cta__media" role="img" aria-label="A person relaxing at home reading in warm lamp light">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 19V6a2 2 0 012-2h9l5 5v10a0 0 0 010 0"/><path d="M4 19h16M8 15h4M8 11h6"/></svg>
+          <span>Ảnh: người đọc sách dưới ánh đèn ấm</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-newsletter reveal">
+      <h2>Stay up to date on features &amp; releases</h2>
+      <form class="capture-form">
+        <label class="sr-only" for="footer-email">Email address</label>
+        <input type="email" id="footer-email" placeholder="Enter your email" required />
+        <button type="submit" class="btn btn--primary" aria-label="Subscribe">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </form>
+    </div>
+
+    <div class="footer-links">
+      <div class="footer-links__col">
+        <h4>Product</h4>
+        <a href="#">How it works</a>
+        <a href="#">Pricing</a>
+        <a href="#">Security</a>
+        <a href="#">Download</a>
+      </div>
+      <div class="footer-links__col">
+        <h4>Company</h4>
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+        <a href="#">Blog</a>
+      </div>
+      <div class="footer-links__col">
+        <h4>Resources</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy Guide</a>
+        <a href="#">Data Removal</a>
+        <a href="#">API</a>
+      </div>
+      <div class="footer-links__col">
+        <h4>Legal</h4>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Cloaked, Inc. All rights reserved.</span>
+      <div class="footer-social" aria-label="Social media links">
+        <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.5 8.6L23 22h-6.9l-5.4-6.9L4.6 22H1.5l8-9.2L1 2h7l4.9 6.3L18.9 2z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5.001A2.5 2.5 0 014.98 3.5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-1 1.83-2 3.77-2 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21h-4V9z"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.2h2.4l.4-2.8h-2.8V9.1c0-.8.2-1.4 1.4-1.4h1.5V5.2C15.9 5.1 14.8 5 13.6 5c-2.5 0-4.1 1.5-4.1 4.3V11H7v2.8h2.5V21h4z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
